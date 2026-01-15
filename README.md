@@ -1,97 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delicious Bites Restaurant</title>
-  <style>
-    /* Basic reset */
-    * {margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif;}
-    body {background-color: #fffbe6; color: #333;}
+# Delicious Bites — Veg Only
 
-    /* Header */
-    header {background-color: #ff6f61; color: white; padding: 20px; text-align: center;}
-    header h1 {font-size: 2em; margin-bottom: 5px;}
-    header p {font-size: 1.1em;}
+Delicious Bites is a small vegetarian restaurant website (static HTML) with a simple menu and WhatsApp ordering link.
 
-    /* Banner Image */
-    .banner {width: 100%; max-height: 300px; overflow: hidden;}
-    .banner img {width: 100%; object-fit: cover;}
+Summary of changes in this repo
+- Added `index.html` (site entry) with a Veg‑Only badge, opening hours, address, logo placeholder, and accessibility improvements.
+- Kept the README content as this Markdown file for clarity and repo hygiene.
 
-    /* Menu */
-    .menu {padding: 20px;}
-    .menu h2 {text-align: center; margin-bottom: 20px; color: #ff6f61;}
-    .menu-section {margin-bottom: 30px;}
-    .menu-section h3 {color: #333; margin-bottom: 10px; text-decoration: underline;}
-    .menu-item {display:flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dotted #ccc;}
-    
-    /* WhatsApp button */
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      padding: 15px 20px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-      z-index: 1000;
-    }
-    .whatsapp:hover {background-color: #1ebe5d;}
+Site preview
+- To preview locally: open `index.html` in a browser (double-click or `open index.html`).
+- To edit content: modify `index.html` (menu items, hours, address, banner, logo).
 
-    /* Footer */
-    footer {text-align: center; padding: 15px; background-color: #ff6f61; color: white; margin-top: 20px;}
-  </style>
-</head>
-<body>
+Enable GitHub Pages (publish the site)
+1. Go to the repository Settings → Pages.
+2. Under "Source", select branch: `main` and folder: `/ (root)`.
+3. Click "Save". Your site will be published at:
+   `https://kaushaljogi17-collab.github.io/deliciousbites-restaurant/` (it can take a minute to become available).
+4. If you want a custom domain, add it in the Pages settings and configure DNS accordingly.
 
-  <!-- Header -->
-  <header>
-    <h1>Delicious Bites</h1>
-    <p>Your favorite food, delivered fresh!</p>
-    <p>Call / WhatsApp: 8307927400</p>
-  </header>
+Notes & next steps
+- Replace the logo placeholder image (`src` in the header) with your official logo URL for branding.
+- If you want the README to display additional project details (license, contribution guide, deploy CI), tell me what to add.
+- I can also (on approval) commit these files to `main` and enable GitHub Pages for you.
 
-  <!-- Banner -->
-  <div class="banner">
-    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1500&q=80" alt="Delicious Food Banner">
-  </div>
-
-  <!-- Menu -->
-  <div class="menu">
-    <h2>Our Menu</h2>
-
-    <div class="menu-section">
-      <h3>Veg</h3>
-      <div class="menu-item"><span>Paneer Butter Masala</span><span>₹180</span></div>
-      <div class="menu-item"><span>Veg Biryani</span><span>₹150</span></div>
-      <div class="menu-item"><span>Mix Veg</span><span>₹120</span></div>
-      <div class="menu-item"><span>Dal Tadka</span><span>₹100</span></div>
-      <div class="menu-item"><span>Butter Naan</span><span>₹20</span></div>
-    </div>
-
-    <!-- Non-Veg section removed as requested -->
-
-    <div class="menu-section">
-      <h3>Sides & Desserts</h3>
-      <div class="menu-item"><span>Raita</span><span>₹40</span></div>
-      <div class="menu-item"><span>Salad</span><span>₹50</span></div>
-      <div class="menu-item"><span>Gulab Jamun (2 pcs)</span><span>₹60</span></div>
-      <div class="menu-item"><span>Lassi</span><span>₹50</span></div>
-      <div class="menu-item"><span>Soft Drink (500ml)</span><span>₹40</span></div>
-    </div>
-
-  </div>
-
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/918307927400?text=Hi%20Delicious%20Bites,%20I%20want%20to%20place%20an%20order." class="whatsapp" target="_blank">Order on WhatsApp</a>
-
-  <!-- Footer -->
-  <footer>
-    &copy; 2026 Delicious Bites Restaurant | Made with ❤️
-  </footer>
-
-</body>
-</html>
+Contact
+- Phone / WhatsApp: 8307927400
