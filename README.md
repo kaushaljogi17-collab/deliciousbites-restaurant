@@ -74,11 +74,7 @@
 
     <div class="menu-section">
       <h3>Non-Veg</h3>
-      <div class="menu-item"><span>Chicken Biryani</span><span>₹220</span></div>
-      <div class="menu-item"><span>Chicken Curry</span><span>₹200</span></div>
-      <div class="menu-item"><span>Egg Curry</span><span>₹120</span></div>
-    </div>
-  </div>
+      <div 
 
   <!-- WhatsApp Button -->
   <a href="https://wa.me/918307927400?text=Hi%20Delicious%20Bites,%20I%20want%20to%20place%20an%20order." class="whatsapp" target="_blank">Order on WhatsApp</a>
