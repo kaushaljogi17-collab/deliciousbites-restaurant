@@ -72,9 +72,18 @@
       <div class="menu-item"><span>Butter Naan</span><span>₹20</span></div>
     </div>
 
+    <!-- Non-Veg section removed as requested -->
+
     <div class="menu-section">
-      <h3>Non-Veg</h3>
-      <div 
+      <h3>Sides & Desserts</h3>
+      <div class="menu-item"><span>Raita</span><span>₹40</span></div>
+      <div class="menu-item"><span>Salad</span><span>₹50</span></div>
+      <div class="menu-item"><span>Gulab Jamun (2 pcs)</span><span>₹60</span></div>
+      <div class="menu-item"><span>Lassi</span><span>₹50</span></div>
+      <div class="menu-item"><span>Soft Drink (500ml)</span><span>₹40</span></div>
+    </div>
+
+  </div>
 
   <!-- WhatsApp Button -->
   <a href="https://wa.me/918307927400?text=Hi%20Delicious%20Bites,%20I%20want%20to%20place%20an%20order." class="whatsapp" target="_blank">Order on WhatsApp</a>
